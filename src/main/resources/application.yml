@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+bedrock:
+  # You can override these via environment variables or profiles
+  region: us-east-1
+  modelId: anthropic.claude-3-haiku-20240307-v1:0
+
+spring:
+  main:
+    banner-mode: console
+
