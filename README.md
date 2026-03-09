@@ -23,24 +23,24 @@ The code is intentionally simple so it is easy to integrate into your existing J
 ## 2. How the flow works
 
 1. **Client → Java API**
-Client Request
-      │
-      ▼
-Spring Boot Controller
-      │
-      ▼
-BedrockService
-      │
-      ▼
-AWS SDK (BedrockRuntimeClient)
-      │
-      ▼
-Amazon Bedrock
-      │
-      ▼
-Claude 3 Haiku Model
-      │
-      ▼
+Client Request  
+      │  
+      ▼  
+Spring Boot Controller  
+      │  
+      ▼  
+BedrockService  
+      │  
+      ▼  
+AWS SDK (BedrockRuntimeClient)  
+      │  
+      ▼  
+Amazon Bedrock  
+      │  
+      ▼  
+Claude 3 Haiku Model  
+      │  
+      ▼  
 JSON Response
 
    - Client calls:
